@@ -1,9 +1,10 @@
-import { Heading, VStack } from '@chakra-ui/react'
+import { Heading, Link, VStack } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 import React from 'react'
 import SocialLinks from './components/SocialLinks'
-import bg from '../../images/place-holder2.jpg'
+import bg from '../../images/place-holder-3.jpg'
 
-function ContactInfo() {
+function ContactInfo({ bgAttachment }) {
 	return (
 		<VStack
 			id='contact'
@@ -14,21 +15,23 @@ function ContactInfo() {
 			color={'gray.50'}
 			style={{
 				backgroundImage: `url(${bg})`,
-				backgroundAttachment: 'fixed',
+				backgroundAttachment: bgAttachment,
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
 			}}>
 			<VStack spacing={10}>
 				<Heading size={'4xl'}>Get in touch</Heading>
-				<Heading
-					as={'a'}
-					href={'mailto: basharothman.work@gmail.com'}
-					size={'md'}
-					p={4}
-					border={'3px solid'}
-					borderRadius={10}>
-					basharothman.work@gmail.com
-				</Heading>
+				<Link href={'mailto: basharothman.work@gmail.com'}>
+					<Heading
+						as={motion.div}
+						whileHover={{ scale: [1, 1.2, 1.1] }}
+						size={'md'}
+						p={4}
+						border={'3px solid'}
+						borderRadius={10}>
+						basharothman.work@gmail.com
+					</Heading>
+				</Link>
 			</VStack>
 			<SocialLinks />
 		</VStack>

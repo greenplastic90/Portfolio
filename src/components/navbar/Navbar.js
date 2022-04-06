@@ -12,8 +12,7 @@ function Navbar() {
 			position={'fixed'}
 			bg={'white'}
 			color={'gray.700'}
-			zIndex={'100'}
-			backgroundColor={'transparent'}>
+			zIndex={'100'}>
 			<Logo />
 			<Menu />
 		</HStack>

@@ -1,8 +1,8 @@
 import { Box, Heading, Image, VStack } from '@chakra-ui/react'
 import React from 'react'
-import bg from '../../images/place-holder3.jpg'
+import bg from '../../images/place-holder-3.jpg'
 
-function DividerDiv({ vh, title }) {
+function DividerDiv({ vh, title, bgAttachment }) {
 	return (
 		<VStack
 			id='projects'
@@ -11,11 +11,13 @@ function DividerDiv({ vh, title }) {
 			justify={'center'}
 			style={{
 				backgroundImage: `url(${bg})`,
-				backgroundAttachment: 'fixed',
+				backgroundAttachment: bgAttachment,
 				backgroundPosition: 'center',
 				backgroundSize: 'cover',
 			}}>
-			<Heading size={'3xl'}>{title}</Heading>
+			<Heading size={'3xl'} color={'gray.50'}>
+				{title}
+			</Heading>
 		</VStack>
 	)
 }

@@ -55,7 +55,7 @@ function Skills() {
 		{ logo: <SiGithub />, title: 'GitHub' },
 	])
 	return (
-		<Stack id={'skills'} w={'100%'} h={'80vh'}>
+		<Stack id={'skills'} w={'100%'}>
 			<VStack w={'100%'} mt={90} align={'center'}>
 				<SkillGrid skills={skills} />
 			</VStack>

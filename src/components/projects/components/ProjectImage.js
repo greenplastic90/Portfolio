@@ -1,11 +1,11 @@
-import { AspectRatio, Box, Image } from '@chakra-ui/react'
+import { AspectRatio, Box, Image, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 function ProjectImage({ image }) {
 	return (
-		<Box w={'60%'}>
+		<VStack w={'100%'}>
 			<Image src={image} />
-		</Box>
+		</VStack>
 	)
 }
 

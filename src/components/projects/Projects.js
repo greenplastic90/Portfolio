@@ -27,6 +27,8 @@ function Projects() {
 		{
 			id: 1,
 			image: giveaway,
+			duration: '1 Week',
+			team: 'Pair Programing',
 			title: 'Giveaway Bae',
 			technologies: [<SiReact />, <SiPython />, <SiDjango />, <SiPostgresql />, <SiChakraui />],
 			gitHubURL: 'https://github.com/greenplastic90/SEI-Project-4/blob/main/README.md',
@@ -37,6 +39,8 @@ function Projects() {
 		{
 			id: 2,
 			image: metups,
+			duration: '1 Week',
+			team: 'Team of 3',
 			title: 'MetUps',
 			technologies: [<SiReact />, <SiExpress />, <SiMongodb />, <SiBootstrap />, <SiChakraui />],
 			gitHubURL: 'https://github.com/greenplastic90/SEI-Project-3',
@@ -47,6 +51,8 @@ function Projects() {
 		{
 			id: 3,
 			image: itvdb,
+			duration: '2 days',
+			team: 'Pair Programing',
 			title: 'ITVDB',
 			technologies: [<SiReact />, <SiExpress />, <SiNodedotjs />, <SiBootstrap />, <SiSass />],
 			gitHubURL: 'https://github.com/greenplastic90/SEI-Project-2',
@@ -57,6 +63,8 @@ function Projects() {
 		{
 			id: 4,
 			image: spaceGame,
+			duration: '1 Week',
+			team: 'Solo',
 			title: 'Space Game',
 			technologies: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
 			gitHubURL: 'https://github.com/greenplastic90/SEI-Project-1',
@@ -66,7 +74,7 @@ function Projects() {
 		},
 	])
 	return (
-		<VStack spacing={'25vh'} mb={250} mt={100}>
+		<VStack spacing={'15vh'} mb={100} mt={100}>
 			{projects.current.map((project, i) => {
 				return <Project key={project.id} project={project} i={i} />
 			})}
