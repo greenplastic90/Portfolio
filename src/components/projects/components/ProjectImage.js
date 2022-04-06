@@ -3,8 +3,13 @@ import React from 'react'
 
 function ProjectImage({ image }) {
 	return (
-		<VStack w={'100%'}>
-			<Image src={image} />
+		<VStack
+			w={'100%'}
+			boxShadow={'dark-lg'}
+			borderRadius='full'
+			justify={'center'}
+			bgColor={'orange.600'}>
+			<Image src={image} borderRadius={20} />
 		</VStack>
 	)
 }

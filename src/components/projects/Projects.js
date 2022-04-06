@@ -1,4 +1,4 @@
-import { Heading, Image, Stack, Text, VStack } from '@chakra-ui/react'
+import { VStack } from '@chakra-ui/react'
 import React, { useRef } from 'react'
 import placeHolder from '../../images/place-holder.png'
 import spaceGame from '../../images/space-game.png'
