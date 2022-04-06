@@ -8,6 +8,7 @@ import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import AboutMe from './components/about-me/AboutMe'
 import { useEffect, useState } from 'react'
+import Interests from './components/interests/Interests'
 
 function App() {
 	const [bgAttachment, setBgAttachment] = useState('fixed')
@@ -36,6 +37,7 @@ function App() {
 				<DividerDiv bgAttachment={bgAttachment} vh={150} title={'Projects'} />
 				<Container maxW={'container.lg'}>
 					<Projects />
+					<Interests />
 				</Container>
 				<ContactInfo bgAttachment={bgAttachment} />
 			</VStack>

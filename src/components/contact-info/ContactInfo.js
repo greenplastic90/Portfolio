@@ -10,7 +10,7 @@ function ContactInfo({ bgAttachment }) {
 			id='contact'
 			w={'100%'}
 			spacing={10}
-			h={'70vh'}
+			h={'100vh'}
 			justify={'center'}
 			color={'gray.50'}
 			style={{

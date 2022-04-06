@@ -1,9 +1,11 @@
 import { HStack } from '@chakra-ui/react'
-import React from 'react'
+import React, { useRef } from 'react'
 import Logo from './components/Logo'
 import Menu from './components/Menu'
+import NavLinks from './components/NavLinks'
 
 function Navbar() {
+	const sections = useRef(['skills', 'about', 'projects', 'interests', 'contact'])
 	return (
 		<HStack
 			w={'100%'}
@@ -15,7 +17,11 @@ function Navbar() {
 			color={'gray.700'}
 			zIndex={'100'}>
 			<Logo />
-			<Menu />
+			<HStack spacing={[3, null, 5]} pr={4}>
+				{sections.current.map((name) => (
+					<NavLinks key={name} title={name} />
+				))}
+			</HStack>
 		</HStack>
 	)
 }
