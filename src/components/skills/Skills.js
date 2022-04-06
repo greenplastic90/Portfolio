@@ -1,4 +1,13 @@
-import { AspectRatio, Grid, GridItem, HStack, Image, Stack, VStack } from '@chakra-ui/react'
+import {
+	AspectRatio,
+	Grid,
+	GridItem,
+	Heading,
+	HStack,
+	Image,
+	Stack,
+	VStack,
+} from '@chakra-ui/react'
 import React, { useRef } from 'react'
 import SkillCard from './components/SkillCard'
 import {
@@ -56,6 +65,9 @@ function Skills() {
 	])
 	return (
 		<Stack id={'skills'} w={'100%'}>
+			<Heading mt={90} size={'2xl'} alignSelf={'self-start'} mb={50}>
+				Skills
+			</Heading>
 			<VStack w={'100%'} mt={90} align={'center'}>
 				<SkillGrid skills={skills} />
 			</VStack>

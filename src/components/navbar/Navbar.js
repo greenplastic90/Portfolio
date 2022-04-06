@@ -11,6 +11,7 @@ function Navbar() {
 			py={2}
 			position={'fixed'}
 			bg={'white'}
+			border={'1px solid'}
 			color={'gray.700'}
 			zIndex={'100'}>
 			<Logo />
