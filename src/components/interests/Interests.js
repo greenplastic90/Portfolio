@@ -28,7 +28,7 @@ function Interests() {
 		{
 			title: 'Photography',
 			description:
-				'I was obsessed with photography, digital photography in particular. Started taking photos with a small point and click sony camera, then upgraded to a Nikon DSLR setup with multiple detachable lenses. Part of what got me excited about photography was editing photos and creating something special from what could be a dull image. Some on the images I took over the years are on my ',
+				'I was obsessed with photography, digital photography in particular. Started taking photos with a small point and click Sony camera, then upgraded to a Nikon DSLR setup with multiple detachable lenses. Part of what got me excited about photography was editing photos and creating something special from what could be a dull image. Some of the images I took over the years are on my ',
 			icon: <BsCameraFill />,
 		},
 	])
