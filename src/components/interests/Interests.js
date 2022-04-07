@@ -35,7 +35,7 @@ function Interests() {
 	return (
 		<VStack id='interests' w={'100%'} mb={40}>
 			<Heading size={'2xl'} alignSelf={'self-start'} mb={50}>
-				Some Interests
+				Interests
 			</Heading>
 			<VStack spacing={10}>
 				{interestsArr.current.map((interest) => (
