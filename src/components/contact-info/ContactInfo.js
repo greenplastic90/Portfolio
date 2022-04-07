@@ -25,6 +25,7 @@ function ContactInfo({ bgAttachment }) {
 					<Heading
 						as={motion.div}
 						whileHover={{ scale: [1, 1.2, 1.1] }}
+						whileInView={{ rotateZ: [0, -5, 5, 0] }}
 						size={'md'}
 						p={4}
 						border={'3px solid'}

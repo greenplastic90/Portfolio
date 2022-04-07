@@ -8,6 +8,7 @@ function SkillCard({ logo, title, i }) {
 			as={motion.div}
 			whileHover={{ rotate: i % 2 === 0 ? 20 : -20 }}
 			whileTap={{ scale: 0.9 }}
+			whileInView={{ rotateZ: [0, 5, -5, 5, 0] }}
 			border={'1px solid '}
 			justify={'center'}
 			align={'center'}

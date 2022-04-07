@@ -6,7 +6,7 @@ function HeroAvatar() {
 	return (
 		<VStack w={'100%'} justifyContent={'center'} zIndex={'50'}>
 			<AspectRatio ratio={1} w={[220, 250, 350]}>
-				<Image src={myPhoto} borderRadius='full' border={'4px solid'} p={3} />
+				<Image src={myPhoto} borderRadius='full' border={'4px solid'} p={3} boxShadow={'dark-lg'} />
 			</AspectRatio>
 		</VStack>
 	)

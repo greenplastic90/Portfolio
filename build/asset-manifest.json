@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.20e06240.css",
-    "main.js": "/static/js/main.dc6495dd.js",
+    "main.js": "/static/js/main.29c3adcc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/place-holder-3.jpg": "/static/media/place-holder-3.58780e027ebb5606a7c2.jpg",
     "static/media/space-game.png": "/static/media/space-game.c099f2f616efac67dc6e.png",
@@ -20,11 +20,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
     "index.html": "/index.html",
     "main.20e06240.css.map": "/static/css/main.20e06240.css.map",
-    "main.dc6495dd.js.map": "/static/js/main.dc6495dd.js.map",
+    "main.29c3adcc.js.map": "/static/js/main.29c3adcc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20e06240.css",
-    "static/js/main.dc6495dd.js"
+    "static/js/main.29c3adcc.js"
   ]
 }

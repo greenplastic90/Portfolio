@@ -9,8 +9,8 @@ function ProjectTech({ technologies }) {
 				return (
 					<AspectRatio
 						as={motion.div}
-						animate={{ scale: [1, 1.2, 1.2, 1] }}
-						whileHover={{ rotateY: 180, scale: 1.2 }}
+						whileHover={{ scale: [1, 1.2, 1.2, 1] }}
+						whileInView={{ rotateZ: [0, 20, -20, 0] }}
 						key={i}
 						ratio={1}
 						w={10}>

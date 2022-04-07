@@ -22,7 +22,8 @@ function SocialLinks() {
 						href={URL}
 						target={'_blank'}
 						as={motion.a}
-						whileHover={{ scale: [1, 1.2, 1.1] }}>
+						whileHover={{ scale: [1, 1.2, 1.1] }}
+						whileInView={{ rotateZ: [0, 10, -10, 0] }}>
 						<AspectRatio ratio={1} w={10}>
 							{icon}
 						</AspectRatio>

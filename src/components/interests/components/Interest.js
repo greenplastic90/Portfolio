@@ -12,11 +12,13 @@ function Interest({ interest }) {
 					as={motion.div}
 					ratio={1}
 					w={14}
-					whileHover={{ y: [0, -20, 0], x: [2, -2, 2, 0] }}
-					whileTap={{ y: [0, -20, 0], x: [2, -2, 2, 0] }}>
+					whileHover={{ scale: [1, 1.2, 1.2, 1] }}
+					whileInView={{ y: [-20, 0] }}>
 					{interest.icon}
 				</AspectRatio>
-				<Heading>{interest.title}</Heading>
+				<Heading as={motion.h3} whileInView={{ x: [30, 0] }}>
+					{interest.title}
+				</Heading>
 			</HStack>
 			<HStack>
 				<Text>
